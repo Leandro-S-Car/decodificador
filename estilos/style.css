@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.cabecalho {
+    margin: 3%;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    gap: 0% 20%;
+    margin: 2%;
+    
+}
+
+.principal_entrada {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    text-align: center;
+}
+
+.entrada {
+    border: none;
+}
+
+
+.botoes {
+    display: flex;
+    margin: 2% 20%;
+    gap: 0% 15%;
+}
+
+.criptografar {
+    background-color: rgb(139, 139, 248);
+    padding: 4%;
+    border-radius: 20%;
+    }
+
+.descriptografar {
+    background-color: rgb(216, 214, 219);
+    padding: 4%;
+    border-radius: 20%;
+}
+
+.saida {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+        
+}
+ .saida_texto {
+    border: none;
+    
+   
+    
+ }
+.emogi {
+    margin: 0% 35%;
+}
+
+
+.botao_copia {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 22%;
+    gap: 10%;
+    
+}
+
+.copiar {
+    background-color: rgb(216, 214, 219);
+    padding: 4%;
+    border-radius: 20%;
+}
+
+.rodape {
+    background-color: rgb(104, 168, 149);
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="./estilos/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>encriptador</title>
+</head>
+<body class="conteudo">
+    <header class="cabecalho">
+        <img src="./img/logo oracle.png" alt="logo oracle ">
+    </header>
+    <main class="principal">
+        <section class="principal_entrada">
+            <h1>Digite seu Texto</h1>
+          <textarea class="entrada" cols="42" rows="10" placeholder="Digite seu Texto aqui"></textarea>
+            <div>
+             <img src="./img/atencao.jpg" width="20px" alt="atenção">
+             <p>Apenas letras minusculas e sem acento</p>
+            </div>
+            <div class="botoes">
+            <button class="criptografar" onclick="btnEncriptar()">Criptografar</button>
+            <button class="descriptografar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+        <section class="saida">
+            <img class="emogi" src="./img/emogi" width="125px" alt="imagem emogi">
+            <h5> Texto Criptografado</h5>
+            <textarea class="saida_texto" cols="42" rows="11" placeholder="nenhum texto encontrado"></textarea>
+            <div class="botao_copia">
+               <button class="copiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+     '  </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
